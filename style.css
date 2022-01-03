@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+
+body{
+    font-family: 'Shizuru', cursive;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.h1-color{
+    color: #F9785F;
+}
+
+section{
+    display: flex;
+    
+}
+
+.half-width p{
+    font-weight: bold;
+}
+.half-width img{
+    width: 80%;
+}
+
+.half-width{
+    padding-top: 60px;
+    width: 50%;
+    padding-left: 5%;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(#F9785F, #ec4726 );
+    padding:10px 40px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
