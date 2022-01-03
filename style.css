@@ -16,7 +16,7 @@ h1{
 
 section{
     display: flex;
-    
+    margin-bottom: 120px;
 }
 
 .half-width p{
@@ -30,6 +30,7 @@ section{
     padding-top: 60px;
     width: 50%;
     padding-left: 5%;
+    padding-right: 2%;
 }
 
 .link-button{
@@ -46,4 +47,30 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     
+}
+
+
+
+.dream{
+    color: #FF3D8A;
+}
+
+.dream-link{
+    text-decoration: none;
+    background-image: linear-gradient(#FF2077, #FF5599 );
+    padding:10px 40px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    
+}
+.dream-link:hover{
+    background-image: linear-gradient( #FF5599, #FF2077 );
+
+}
+.dream-big{
+  
+    background:url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
