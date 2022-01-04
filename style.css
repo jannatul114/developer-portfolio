@@ -27,9 +27,9 @@ h1{
 }
 
 .half-width{
-    padding-top: 60px;
+    padding-top: 20px;
     width: 50%;
-    padding-left: 5%;
+    padding-left: 3%;
     padding-right: 2%;
 }
 
@@ -55,7 +55,7 @@ h1{
     color: #FF3D8A;
 }
 
-.dream-link{
+#dream-link{
     text-decoration: none;
     background-image: linear-gradient(#FF2077, #FF5599 );
     padding:10px 40px;
@@ -64,7 +64,7 @@ h1{
     font-weight: bold;
     
 }
-.dream-link:hover{
+#dream-link:hover{
     background-image: linear-gradient( #FF5599, #FF2077 );
 
 }
@@ -79,28 +79,49 @@ h1{
 .experiance-item{
     box-shadow: 10px 10px 40px lightgrey;
     width: 40%;
-    
+    font-weight: bold;
     margin-left: 4%;
     padding: 25px;
 }
 
-.full-stack{
+#full-stack{
     color: #7737D8;
 }
 
-.baby{
+#baby{
     color:#34A3F1;
 }
 
-.baby-border{
-    border-left:10px solid #34A3F1;
+#baby-border{
+
+    border-left: 10px solid;
+    border-image: linear-gradient(#77bcec, #34A3F1);
+    border-radius: 10px;
+    border-image-slice: 1;
+    background-color: #FFF;
 }
 
-.full-stack-border{
-    border-left:10px solid #7737D8;
+#baby-border:hover{
+    background-color: #34a2f181;
+    transition:1s;
 }
 
-.exp{
+#full-stack-border{
+    
+    border-left: 10px solid;
+    border-image: linear-gradient(#7737D8, #a574f0);
+    border-radius: 10px;
+    border-image-slice: 1;
+    background-color: #FFF;
+    
+}
+
+#full-stack-border:hover{
+    background-color: #7737d87a;
+    transition: 1s;
+}
+
+#exp{
     padding-left: 50px;
 }
 
@@ -111,4 +132,10 @@ h2{
 .experiance-area{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
+}
+
+footer p{
+    text-align: center;
+    font-weight: bold;
+
 }
